@@ -14,8 +14,27 @@ void main() {
   // Для определения строки, можно использовать как одинарные, так и двойные ковычки
   String my_name = 'Sergei'
   print(my_name.runtimeType);
+  // Экранирование с помощью упровляющей последовательности
+  String name = 'What\'s you name?';
+  print(name);
+  // Определение многострочной строки
+  String fio = '''
+  Sergei
+  Alexandrovish
+  Fist
+  ''';
+  print(fio);
+  // Dart поддерживает интерполяцию строк, в которых можно вводить значения других переменных
+  String person_info = "Name: $my_name Weight: $my_weight";
+  print(person_info);
 
-  // Runes
+  // Runes (этот тип так-же предстовляет строки, но он имеет последовательность символов в кодировке UTF-32)
+  // Для определения переменной, требуется специальный синтаксис
+  Runes hello = Runes('\u041F\u0440\u0438\0432\u0435\u0442');
+  print(hello);
+  // Что бы получить текстовое представление объекта Runes, применяется определенный метод
+  print(String.fromCharCodes(hello));
 
-  // Symbol
+  // Symbol (этот тип предстовляет символ)
+  Symbol a = #f; // Предстовляет символ f
 }
