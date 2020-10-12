@@ -28,6 +28,11 @@ void main() {
   // Разберем фиксированные и не фиксированные списки
   // Создаем список фиксированной длины, который содержит только числа
   List<int> numberList = List(5);
+  numberList[0] = 22; // Записываем значение
+  numberList[1] = 33;
+  numberList[2] = 44;
+  numberList[3] = 55;
+  numberList[4] = 66;
   print(numberList);
 
 }
