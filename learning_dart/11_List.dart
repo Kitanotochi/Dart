@@ -33,9 +33,14 @@ void main() {
   numberList[2] = 44;
   numberList[3] = 55;
   numberList[4] = 66;
+  
   // Выполняем обращение к второму элементу списка
   print(numberList[1];) // Распечатали второй элемент списка
   numberList[0] = 99;
+
+  // Удаляем значение элемента в списке
+  numberList[1] = null;
+
   // Обновляем значение элемента списка
   print(numberList);
 
