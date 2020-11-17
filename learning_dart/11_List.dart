@@ -44,5 +44,20 @@ void main() {
   // Обновляем значение элемента списка
   print(numberList);
 
+  print("\n");
 
+  for (var i = 0; i < numberList.length; i++) { // Возврощает длинну списка. Кол-во элементов
+    print(numberList[i]);
+  }
+
+  print("\n");
+
+  for (int element in numberList) { // Каждый перебераемый элемент, помещается в переменную "element"
+    print(element);
+  }
+
+  print("\n");
+
+  // Метод обхода списка
+   numberList.forEach((element) => print(element));
 }
