@@ -14,6 +14,6 @@ void main() {
     numberList.removeAt(3); // Удаляем элемент списка по индексу
     numberList.clear(); // Удаляем все элементы списка
 
-    print(numberList);
+    print(numberList.first); // Возврощаем первый элемент списка
 
 }
