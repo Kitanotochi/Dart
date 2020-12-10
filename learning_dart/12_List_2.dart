@@ -15,5 +15,8 @@ void main() {
     numberList.clear(); // Удаляем все элементы списка
 
     print(numberList.first); // Возврощаем первый элемент списка
-
+    print(numberList.last); // Возврощаем последний элемент списка
+    print(numberList.length); // Выводим длину списка
+    print(numberList.isEmpty); // Узнаем: пустой или полный список, выводит "true" или "false"
+    print(numberList.reversed); // Возврощаем все элементы в противоположном порядке
 }
