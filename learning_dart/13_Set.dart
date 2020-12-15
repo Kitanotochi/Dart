@@ -12,4 +12,15 @@ void main() {
 
   Set set3 = Set.from([1, "hello", true]); // Создаем "set" из списка
   print(set3);
+
+  Set numberSet = Set(); // Создали конструктор
+  numberSet.add(66); // Заполнили набор случайными значениями
+  numberSet.add(22);
+  numberSet.add("world");
+  numberSet.add(true);
+  numberSet.add(45.0);
+  print(numberSet);
+
+  
+
 }
