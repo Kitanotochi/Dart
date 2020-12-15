@@ -14,13 +14,16 @@ void main() {
   print(set3);
 
   Set numberSet = Set(); // Создали конструктор
-  numberSet.add(66); // Заполнили набор случайными значениями
+  // Заполнили набор случайными значениями
+  // Набор не должин содержать дубликатов
+  // Если передать одинаковые значения, то "set" их проигнорирует
+  numberSet.add(66); 
   numberSet.add(22);
   numberSet.add("world");
   numberSet.add(true);
   numberSet.add(45.0);
   print(numberSet);
 
-  
+
 
 }
