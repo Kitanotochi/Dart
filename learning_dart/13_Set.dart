@@ -22,6 +22,11 @@ void main() {
   numberSet.add("world");
   numberSet.add(true);
   numberSet.add(45.0);
+
+  numberSet.contains(66); // Возврощает "true" если элемент содержится в наборе
+  numberSet.remove(22); // Передаем значение которое хотим удалить, вернет "true" если элемент найден и удален
+  print(numberSet.length); // Подсчет длины
+  print(numberSet.isEmpty); // Пустой набор или нет
   print(numberSet);
 
 }
