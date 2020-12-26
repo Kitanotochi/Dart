@@ -5,5 +5,11 @@ void main() {
   Map<int, String> map1 = {1: "value", 2: "value2"};
   print(map);
   print(map1);
+
+  Map<String, String> traffickLight = Map(); // Вызываем конструктор "map"
+  traffickLight['red'] = 'stop'; // Добовление нового элемента
+  traffickLight['yellow'] = 'go?';
+  traffickLight['green'] = 'go';
+  print(traffickLight );
   
 }
