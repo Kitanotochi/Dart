@@ -10,6 +10,10 @@ void main() {
   traffickLight['red'] = 'stop'; // Добовление нового элемента
   traffickLight['yellow'] = 'go?';
   traffickLight['green'] = 'go';
+
+  traffickLight['yellow'] = 'wait'; // Изменяем значение элемента
+  print(traffickLight['yellow']); // Вызываем значение элемента
+
   print(traffickLight );
   
 }
