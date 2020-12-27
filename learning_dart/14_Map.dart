@@ -14,7 +14,14 @@ void main() {
   traffickLight['yellow'] = 'wait'; // Изменяем значение элемента
   print(traffickLight['yellow']); // Вызываем значение элемента
 
-  print(traffickLight );
+  print(traffickLight);
+
+  print('\n');
+
+  // Перебераем ключи, исполюзую конструкцию "for in"
+  for (var key in traffickLight.keys) {
+    print(key);
+  }
   
   
 }
