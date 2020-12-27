@@ -24,11 +24,16 @@ void main() {
   }
 
   print('\n');
-  
+
   // Перебераем значения используя конструкцию "for in"
   for (var value in traffickLight.values) {
     print(value);
   }
+  
+  print('\n');
+
+  // Получаем все элементы используя метод "forEach"
+  traffickLight.forEach((key, value) => print("key: $key, value: $value"));
   
   
 }
