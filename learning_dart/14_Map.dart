@@ -18,9 +18,16 @@ void main() {
 
   print('\n');
 
-  // Перебераем ключи, исполюзую конструкцию "for in"
+  // Перебераем ключи, исполюзуя конструкцию "for in"
   for (var key in traffickLight.keys) {
     print(key);
+  }
+
+  print('\n');
+  
+  // Перебераем значения используя конструкцию "for in"
+  for (var value in traffickLight.values) {
+    print(value);
   }
   
   
