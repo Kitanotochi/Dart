@@ -16,6 +16,13 @@ void main() {
 
   print(traffickLight);
 
+  print(traffickLight.containsKey('red')); // Возврощает значение "true" если имеется такой ключ
+
+  traffickLight.update('green', (value) => 'green_1'); // Принимает ключ и возврощает значение
+  traffickLight.remove('red'); // Удаляем ключ - значение
+  print(traffickLight.length); // Выводим длину 
+  traffickLight.clear(); // Очищаем "map"
+
   print('\n');
 
   // Перебераем ключи, исполюзуя конструкцию "for in"
